@@ -7,8 +7,8 @@
 <html>
 <head>
     <title>${ ui.message("referenceapplication.login.title") }</title>
-    <link rel="shortcut icon" type="image/ico" href="/${ ui.contextPath() }/images/openmrs-favicon.ico"/>
-    <link rel="icon" type="image/png\" href="/${ ui.contextPath() }/images/openmrs-favicon.png"/>
+    <link rel="shortcut icon" type="image/ico" href="/${ ui.contextPath() }images/openMrsLogo.png"/>
+    <link rel="icon" type="image/png\" href="/${ ui.contextPath() }/images/openMrsLogo.png"/>
     ${ ui.resourceLinks() }
 </head>
 <body>
@@ -70,6 +70,7 @@ ${ ui.includeFragment("referenceapplication", "infoAndErrorMessages") }
 
 <div id="body-wrapper">
     <div id="content">
+    
         <form id="login-form" method="post" autocomplete="off">
             <fieldset>
 
